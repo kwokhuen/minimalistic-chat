@@ -130,9 +130,7 @@ button:disabled {
 }
 
 .chat__each_message {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
+  padding: 5px 10px;
   margin-bottom: 5px;
   border-left: 5px solid #2DAAE1;
   border-radius: 1px;
@@ -150,6 +148,14 @@ button:disabled {
   padding-top: 5px;
   padding-bottom: 5px;
   color: #4D4D4D;
+}
+
+.comment-timestamp {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #CCCCCC;
+  font-style: italic;
+  text-align: right;
 }
 
 .chat__footer {
