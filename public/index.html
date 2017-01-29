@@ -27,10 +27,34 @@
       </div>
     </div>
 
+    <script id="message-template" type="text/template">
+      <div class="chat__each_message animated fadeInUp">
+        <li>
+          <p class="comment-user">{{from}}</p>
+          <div class="chat__body_container">
+            <p class="comment-text">{{text}}</p>
+            <p class="comment-timestamp">{{createdAt}}</p>
+          </div>
+        </li>
+      </div>
+    </script>
+
+    <script id="location-message-template" type="text/template">
+      <div class="chat__each_message animated fadeInUp">
+        <li>
+          <p class="comment-user">{{from}}</p>
+          <p class="comment-text">
+            <a href="{{url}}" target="_blank">My current location</a>
+          </p>
+          <p class="comment-timestamp">{{createdAt}}</p>
+        </li>
+      </div>
+    </script>
 
     <script src="/socket.io/socket.io.js"></script>
     <script src="/js/libs/jquery-3.1.1.min.js"></script>
     <script src="/js/libs/moment.js"></script>
+    <script src="/js/libs/mustache.js"></script>
     <script src="/js/index.js"></script>
   </body>
 </html>
