@@ -11,6 +11,7 @@ They persist all your data, from your embarrassing status back in 2008 to your c
 ## Solution
 Minimalistic Chat is a very simple chatting application where you can set a name, go to a chatroom and start talking about your anything!
 And you bet it, we do not persist your conversation. You can start a chatroom and talk about anything. 
+
 Life is short. Live in the moment. Don't look back.
 
 ![Alt text](./landing.png?raw=true)
